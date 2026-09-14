@@ -6,7 +6,7 @@ class Solution {
         int ans = nums[0];
 
         for (int i = 1; i < nums.length; i++) {
-
+         //in positive array we directly write code but in negative containg array we have to take current min to store because in multiply -*- goes postive
             int v1 = nums[i];
             int v2 = curMax * nums[i];
             int v3 = curMin * nums[i];
