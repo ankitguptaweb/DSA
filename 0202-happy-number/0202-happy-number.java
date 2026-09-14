@@ -18,9 +18,9 @@ class Solution {
         int fast = n;
 
         do {
-            
+            //move 1 step
             slow = sumOfSquares(slow);
-
+           // move 2 step
             fast = sumOfSquares(sumOfSquares(fast));
 
         } while (slow != fast);
