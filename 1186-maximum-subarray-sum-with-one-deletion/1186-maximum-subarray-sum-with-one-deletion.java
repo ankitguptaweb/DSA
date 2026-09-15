@@ -1,22 +1,27 @@
-class Solution{
-    public int maximumSum(int[] arr){
-        int noDelete= arr[0];
-        int oneDelete= arr[0];
-        int ans =arr[0];
-        for(int i =1; i<arr.length; i++){
-            //either extend the previous subarray or to start a new Subarray
-            int newNoDelete=Math.max(arr[i],noDelete+arr[i]);
-            //either
-            //keep current element // delete current element
-            int newOneDelete=Math.max(oneDelete+arr[i],noDelete);
+class Solution {
+    public int maximumSum(int[] a) {
 
+        int noDel = a[0];
+        int oneDel = Integer.MIN_VALUE;
+        int res = a[0];
 
-            noDelete=newNoDelete;
-            oneDelete= newOneDelete;
-        
-            ans=Math.max(ans,Math.max(noDelete,oneDelete));
+        for (int i = 1; i < a.length; i++) {
 
+            int prevNoDel = noDel;
+
+            // 0 deletions
+            noDel = Math.max(a[i], noDel + a[i]);
+
+            // 1 deletion
+            if (oneDel == Integer.MIN_VALUE) {
+                oneDel = prevNoDel;
+            } else {
+                oneDel = Math.max(prevNoDel, oneDel + a[i]);
+            }
+
+            res = Math.max(res, Math.max(noDel, oneDel));
         }
-        return ans;
-    } 
+
+        return res;
+    }
 }
