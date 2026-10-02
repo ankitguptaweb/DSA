@@ -13,6 +13,7 @@
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ankitguptaweb/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/ankitguptaweb/DSA/tree/master/0209-minimum-size-subarray-sum) |
 | [0287-find-the-duplicate-number](https://github.com/ankitguptaweb/DSA/tree/master/0287-find-the-duplicate-number) |
+| [0560-subarray-sum-equals-k](https://github.com/ankitguptaweb/DSA/tree/master/0560-subarray-sum-equals-k) |
 | [0724-find-pivot-index](https://github.com/ankitguptaweb/DSA/tree/master/0724-find-pivot-index) |
 | [0904-fruit-into-baskets](https://github.com/ankitguptaweb/DSA/tree/master/0904-fruit-into-baskets) |
 | [0918-maximum-sum-circular-subarray](https://github.com/ankitguptaweb/DSA/tree/master/0918-maximum-sum-circular-subarray) |
@@ -66,6 +67,7 @@
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/ankitguptaweb/DSA/tree/master/0209-minimum-size-subarray-sum) |
+| [0560-subarray-sum-equals-k](https://github.com/ankitguptaweb/DSA/tree/master/0560-subarray-sum-equals-k) |
 | [0724-find-pivot-index](https://github.com/ankitguptaweb/DSA/tree/master/0724-find-pivot-index) |
 ## Hash Table
 |  |
@@ -76,6 +78,7 @@
 | [0142-linked-list-cycle-ii](https://github.com/ankitguptaweb/DSA/tree/master/0142-linked-list-cycle-ii) |
 | [0202-happy-number](https://github.com/ankitguptaweb/DSA/tree/master/0202-happy-number) |
 | [0424-longest-repeating-character-replacement](https://github.com/ankitguptaweb/DSA/tree/master/0424-longest-repeating-character-replacement) |
+| [0560-subarray-sum-equals-k](https://github.com/ankitguptaweb/DSA/tree/master/0560-subarray-sum-equals-k) |
 | [0904-fruit-into-baskets](https://github.com/ankitguptaweb/DSA/tree/master/0904-fruit-into-baskets) |
 ## String
 |  |
